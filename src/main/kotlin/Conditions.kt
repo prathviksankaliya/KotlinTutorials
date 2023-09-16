@@ -6,4 +6,10 @@ fun main() {
     var age = 12
     var elections = if(age >= 18) "You are Eligible to Vote!" else "Yor are Under Age for Voting!";
     println(elections)
+
+    if(age >= 18)
+        println("yes")
+    else{
+        println("no")
+    }
 }
